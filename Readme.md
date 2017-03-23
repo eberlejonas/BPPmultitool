@@ -17,7 +17,7 @@ An R installation with the packages *ape* and *stringr* installed. Use `install.
 ## Usage
 1. Download all BPPmultitool files to a folder on your computer.
 2. Open template.R in a texteditor
-3. Search for the command `setwd("/home/jonas/my_BPPmulti_run")` (line 21) and put the path to the working directory inside the quotes (the one you also specified in your BPPmulti analysis). On Windows you can for isntance write `setwd("C:/Users/jonas/my_BPPmulti_run")`.
+3. Search for the command `setwd("/home/jonas/my_BPPmulti_run")` (line 21) and put the path to the working directory inside the quotes (the one you also specified in your BPPmulti analysis). On Windows you can for instance write `setwd("C:/Users/jonas/my_BPPmulti_run")`.
 4. Execute all desired commands in template.R on the R console. `source("subs.R")`, `setwd("...")`, `settings <- getSettings()`, and `BPPresults <- parseBPPmulti(settings)` are obligatory.
 
 Please also refer to the comments in template.R.
